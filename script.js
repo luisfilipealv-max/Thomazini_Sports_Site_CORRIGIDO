@@ -138,8 +138,6 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.getItem(COOKIE_KEY);
 
 
-        /* Se já escolheu, esconde o banner */
-
         if (choice) {
 
             banner.classList.add("hide");
@@ -223,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("privacyClose");
 
 
-    /* Abrir */
+    /* ABRIR */
 
     if (privacyOpen && modal) {
 
@@ -242,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Fechar pelo X */
+    /* FECHAR PELO X */
 
     if (privacyClose && modal) {
 
@@ -261,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* Fechar clicando fora */
+    /* FECHAR CLICANDO FORA */
 
     if (modal) {
 
@@ -307,6 +305,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }
     );
-
 
 });
